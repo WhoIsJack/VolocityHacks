@@ -1,9 +1,11 @@
 
 # Export Volocity Settings
 
-## Details
+## Info
 Exports all currently active settings for Volocity to a registry (.reg) file 
 so they can be restored at a later point in time.
+
+## Details
 Author: Jonas Hartmann @ Gilmour Group @ EMBL Heidelberg [github.com/WhoIsJack]
 Version: 1.0
 Date: 14.07.2015
