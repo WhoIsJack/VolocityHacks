@@ -1,9 +1,8 @@
 
 # Export Volocity Settings
 
-## Info
-Exports all currently active settings for Volocity to a registry (.reg) file 
-so they can be restored at a later point in time.
+## General
+Exports all currently active settings (channel settings, acquisition protocol and stage points) for Volocity to a registry (.reg) file so they can be restored at a later point in time.
 
 ## Details
 Author: Jonas Hartmann @ Gilmour Group @ EMBL Heidelberg [github.com/WhoIsJack]
@@ -12,12 +11,13 @@ Date: 14.07.2015
 Language: Python (.py) or Batch (.bat)
 
 ## Usage
-- Use the batch version unless you specifically need python for some reason.
+- Use the batch (.bat) version unless you specifically need Python for some reason.
 - Run the program, e.g. by double-clicking it.
-- When prompted, type (or copy in) the name for your settings file (you do NOT 
-  need to write the .reg extension in the name, as it will be added automatically).
+- When prompted, type (or copy in) the name for your settings file. You do NOT need to write the .reg extension in the   name, as it will be added automatically.
 - Confirm with >Enter< and the file should be written to your desktop.
-- Restore settings by double-clicking the .reg file and confirming all subsequently appearing prompts.
+  Be aware that unsaved changes in Volocity (e.g. when you change the laser intensity without clicking the "safe" icon   afterward) will not be exported.
+- Restore settings by double-clicking the .reg file while and confirming all subsequently appearing prompts. Volocity
+  must be closed during this operation. Your settings should be restored once you open Volocity again.
 
 ## Notes
 - Transfer between different Volocity workstations is not recommended, as the hardware 
