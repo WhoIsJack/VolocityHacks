@@ -24,6 +24,7 @@ Language: Python (.py) or Batch (.bat)
   be restored once you open Volocity again.
 
 ## Notes
+- Settings are not human-readable. I may provide a solution to this at some point in the future.
 - Transfer between different Volocity workstations is not recommended, as the hardware 
   setup may not be the same and things might get screwed up as a consequence.
 
