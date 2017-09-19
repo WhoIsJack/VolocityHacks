@@ -1,6 +1,7 @@
 # VolocityHacks
-A collection of tiny tools that make the use of PE's Volocity easier.
+~~A collection of tiny tools that make the use of PE's Volocity easier.~~
 
+A single tool to make the use of PE's Volocity easier. I am not planning on developing other tools, since I am no longer regularly using Volocity.
 
 # Available tools
 
